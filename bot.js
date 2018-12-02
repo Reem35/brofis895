@@ -9,7 +9,7 @@ client.user.setGame(`Ticno | Bc ,`,"http://twitch.tv/akrame35")
 client.user.setStatus("dnd")
 });const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = ".";
+var prefix = "+";
 client.on('message', message => { // Leaked by [ @M3a4x ]
    if(!message.channel.guild) return;
 if(message.content.startsWith(prefix + 'bc')) {
